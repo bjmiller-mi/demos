@@ -14,6 +14,12 @@
 ### How to Run
 From bash:
 
+1. Copy the example environment file and adjust credentials if desired:
+```
+% cp .env.example .env
+```
+
+2. Start the app:
 ```
 % docker compose up --build
 ```
